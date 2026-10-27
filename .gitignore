@@ -4,3 +4,7 @@ __pycache__/
 .vscode/
 .DS_Store
 data/*.csv
+.*/
+docs/
+*.json
+*.md
