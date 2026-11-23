@@ -3,8 +3,17 @@ __pycache__/
 .ipynb_checkpoints/
 .vscode/
 .DS_Store
+
+# derived data (regenerable by the pipeline): CSVs, caches, run configs
 data/*.csv
+data/*.npz
+data/*.json
+
+# agent/session state (local only)
 .*/
-docs/
-*.json
-*.md
+HANDOFF.md
+skills-lock.json
+
+# docs/: markdown reports are tracked; figures, PDFs, texts, CSVs stay local
+docs/*
+!docs/*.md
