@@ -22,6 +22,8 @@ Academic ML repo (U. Minho DAA 2026/27). No README, no CI, no build — notebook
   `notebooks/Notebook_02.ipynb` → `train_nb02.csv`/`test_nb02.csv` →
   `notebooks/Notebook_03.ipynb` → `submissions/*.csv`.
 - Derived CSVs are gitignored (`data/*.csv`); only `resumo_variaveis.csv` is committed.
+  The committed `data/*.npz` are `nb04_oof.npz`, `nb05_enc.npz` and `nb05_f4v2.npz`
+  (frozen evidence used by NB04/NB06); every other cache stays local.
   Notebooks must be re-runnable top-to-bottom to regenerate them.
 - New models/features may be implemented; the user reviews diffs and outputs before commit.
 

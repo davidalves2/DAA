@@ -9,6 +9,12 @@ data/*.csv
 data/*.npz
 data/*.json
 
+# frozen evidence that is committed on purpose (see AGENTS.md)
+!data/resumo_variaveis.csv
+!data/nb04_oof.npz
+!data/nb05_enc.npz
+!data/nb05_f4v2.npz
+
 # agent/session state (local only)
 .*/
 HANDOFF.md

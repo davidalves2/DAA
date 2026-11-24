@@ -32,9 +32,10 @@
 | Doc | O que é |
 |---|---|
 | `info_kaggle.md` | Regras da competição (3 submissões/dia, formato, 30/70) |
-| `relatorio.md` | Estrutura/esboço do relatório de jan 2027 |
+| `relatorio.md` | Draft do relatório (24 nov): números, tabelas, figuras e reprodutibilidade; falta revisão e PDF |
 | `mapa_routing.md` | Gates de routing do questionário (questão × idade × sexo) |
 
 ## Não versionados (locais)
-- Figuras `fig_nb14_*.png`, `fig_routing.png` (NB14/NB01) · `INS2019_questionario_CAPI.pdf` +
+- Figuras `fig_nb14_*.png`, `fig_sub6_*.png`, `fig_sub7_*.png`, `fig_retrato_faixas.png`,
+  `fig_km_idade.png`, `fig_routing.png` · `INS2019_questionario_CAPI.pdf` +
   `.txt` (extraído) · `dicionario_variaveis.csv`, `mapa_routing.csv` (dados).
